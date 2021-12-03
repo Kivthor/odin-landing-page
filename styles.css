@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section, article, nav, aside, header, footer, main {
+  display: block;
+}
+
+body {
+  margin: 0;
+} 
+
+/* div {
+  border: 1px solid black;
+} */
+
+.container-header,
+.header,
+.footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header {
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0 12px;
+  /* border: 4px dotted yellow; */
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  /* border: 3px solid rgb(55, 167, 52); */
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.navigation a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 120px 0;
+  /* border: 3px solid red; */
+}
+
+.container-header-content {
+  width: 556px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  /* border: 2px solid rgb(173, 37, 214); */
+}
+
+.container-header-content h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  /* border: 1px solid green; */
+}
+
+.container-header-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+  /* border: 1px solid rgb(171, 216, 48); */
+}
+
+.container-header-content button {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 32px;
+  background-color: #3872f6;
+  color: #e5e7eb;
+  border-radius: 8px;
+  border: none;
+}
+
+.header-content .image {
+  width: 588px;
+  height: 237px;
+  border-radius: 8px;
+  /* border: 2px solid rgb(25, 113, 139); */
+}
