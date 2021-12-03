@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -77,6 +79,7 @@ body {
   width: 556px;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-between;
   align-items: flex-start;
   /* border: 2px solid rgb(173, 37, 214); */
 }
@@ -85,7 +88,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #f9faf8;
   /* border: 1px solid green; */
 }
@@ -110,14 +113,13 @@ body {
 .header-content .image {
   width: 588px;
   height: 237px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   /* border: 2px solid rgb(25, 113, 139); */
 }
 
-/* .section-random {
-  border: 4px dotted rgb(204, 55, 209);
-} */
-
+.container-section-random {
+  margin-bottom: 139px;
+}
 
 .section-random h2 {
   font-size: 36px;
@@ -158,4 +160,42 @@ body {
   text-align: center;
   margin: 0;
   /* border: 1px solid rgb(221, 65, 187); */
+}
+
+.container-section-quote {
+  background-color: #e5e7eb;
+  padding-top: 138px;
+  padding-bottom: 138px;
+}
+
+.section-quote {
+  max-width: 964px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid black; */
+} 
+
+blockquote {
+  color: #1f2937;
+  max-width: 940px;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+
+cite {
+  color: #1f2937;
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: normal;
+  align-self: flex-end;
+  /* border: 1px solid green; */
 }
