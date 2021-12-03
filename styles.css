@@ -26,12 +26,15 @@ body {
   color: white;
 }
 
-.header {
+.header,
+.section-random,
+.section-quote,
+.section-sign {
   max-width: 1200px;
   min-width: 300px;
   margin: 0 auto;
   padding: 0 12px;
-  /* border: 4px dotted yellow; */
+  /* border: 4px dotted rgb(255, 0, 179); */
 }
 
 .navigation {
@@ -109,4 +112,50 @@ body {
   height: 237px;
   border-radius: 8px;
   /* border: 2px solid rgb(25, 113, 139); */
+}
+
+/* .section-random {
+  border: 4px dotted rgb(204, 55, 209);
+} */
+
+
+.section-random h2 {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  margin: 48px 0;
+  /* border: 1px solid blue; */
+}
+
+.section-random-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  /* border: 3px solid black; */
+}
+
+.section-random-items div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+.section-random-items img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  /* border: 6px solid #3872f6; */
+}
+
+.section-random-items p {
+  color: #1f2937;
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+  margin: 0;
+  /* border: 1px solid rgb(221, 65, 187); */
 }
