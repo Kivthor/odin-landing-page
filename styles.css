@@ -30,7 +30,6 @@ body {
   min-width: 300px;
   margin: 0 auto;
   padding: 0 12px;
-  /* border: 4px dotted rgb(255, 0, 179); */
 }
 
 .navigation {
@@ -38,7 +37,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 22px;
-  /* border: 3px solid rgb(55, 167, 52); */
 }
 
 .header-logo {
@@ -66,7 +64,6 @@ body {
   flex-wrap: wrap;
   gap: 32px;
   padding: 120px 0;
-  /* border: 3px solid red; */
 }
 
 .container-header-content {
@@ -75,7 +72,6 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  /* border: 2px solid rgb(173, 37, 214); */
 }
 
 .container-header-content h1 {
@@ -84,13 +80,11 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  /* border: 1px solid green; */
 }
 
 .container-header-content p {
   font-size: 18px;
   color: #e5e7eb;
-  /* border: 1px solid rgb(171, 216, 48); */
 }
 
 button {
@@ -108,7 +102,6 @@ button {
   width: 588px;
   height: 237px;
   border-radius: 8px;
-  /* border: 2px solid rgb(25, 113, 139); */
 }
 
 .container-section-random {
@@ -120,7 +113,6 @@ button {
   color: #1f2937;
   text-align: center;
   margin: 48px 0;
-  /* border: 1px solid blue; */
 }
 
 .section-random-items {
@@ -128,7 +120,6 @@ button {
   justify-content: center;
   flex-wrap: wrap;
   gap: 48px;
-  /* border: 3px solid black; */
 }
 
 .section-random-items div {
@@ -137,14 +128,12 @@ button {
   justify-content: center;
   gap: 12px;
   align-items: center;
-  /* border: 2px solid green; */
 }
 
 .section-random-items img {
   width: 200px;
   height: 200px;
   border-radius: 8px;
-  /* border: 6px solid #3872f6; */
 }
 
 .section-random-items p {
@@ -153,7 +142,6 @@ button {
   width: 200px;
   text-align: center;
   margin: 0;
-  /* border: 1px solid rgb(221, 65, 187); */
 }
 
 .container-section-quote {
@@ -169,7 +157,6 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* border: 1px solid black; */
 } 
 
 blockquote {
@@ -179,7 +166,6 @@ blockquote {
   font-weight: lighter;
   font-style: italic;
   margin: 0;
-  /* border: 1px solid red; */
 }
 
 cite {
@@ -190,13 +176,11 @@ cite {
   font-weight: bold;
   font-style: normal;
   align-self: flex-end;
-  /* border: 1px solid green; */
 }
 
 .container-section-sign {
   padding-top: 138px;
   padding-bottom: 138px;
-  /* border: 1px solid black; */
 }
 
 .section-sign {
@@ -206,14 +190,12 @@ cite {
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  /* border: 1px solid red; */
 }
 
 .section-sign-text {
   padding: 0;
   margin: 48px 0;
   color: #f9faf8;
-  /* border: 1px solid green; */
 }
 
 .section-sign-text h3,
